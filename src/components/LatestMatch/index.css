@@ -1,0 +1,92 @@
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.latest-matches-header {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Bree Serif;
+  margin-bottom: 15px;
+}
+
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-match-details1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.competing-team-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Bree Serif;
+  margin-bottom: 10px;
+}
+
+.match-date {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Bree Serif;
+  margin-bottom: 10px;
+}
+
+.match-venue {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Bree Serif;
+  margin-bottom: 8px;
+}
+
+.match-result {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Bree Serif;
+  margin-bottom: 8px;
+}
+
+.comp-logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+}
+
+.latest-match-details2 {
+  text-align: right;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Bree Serif;
+  margin-bottom: 8px;
+}
+
+.label-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Bree Serif;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+}
